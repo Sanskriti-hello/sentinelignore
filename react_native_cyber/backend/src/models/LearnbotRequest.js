@@ -1,6 +1,6 @@
 import { sql } from '../config/db.js';
 import { v4 as uuidv4 } from 'uuid';
-
+//ignore
 export class LearnbotRequest {
   static async create(requestData) {
     const { user_id, request_type, query } = requestData;
